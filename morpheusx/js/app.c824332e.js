@@ -8898,7 +8898,7 @@ class CesiumView extends map_MapView {
         }
         cameraOpts.destination = Cesium/* Cartesian3.fromDegrees */.b91.fromDegrees(options.options.location.longitude, options.options.location.latitude, options.options.location.altitude);
       }
-      if (options.options.orientation && options.options.orientation.heading && options.options.orientation.pitch) {
+      if (options.options.orientation && options.options.orientation.heading) {
         if (!cameraOpts) {
           cameraOpts = {};
         }
@@ -8907,6 +8907,7 @@ class CesiumView extends map_MapView {
           pitch: Cesium/* Math.toRadians */.ZX$.toRadians(options.options.orientation.pitch),
           roll: 0.0
         };
+        console.log(cameraOpts.orientation);
       }
     }
     if (cameraOpts) {
@@ -33231,4 +33232,4 @@ __webpack_require__(30541);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.78216a26.js.map
+//# sourceMappingURL=app.c824332e.js.map

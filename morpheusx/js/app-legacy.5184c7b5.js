@@ -14063,7 +14063,7 @@ var CesiumView = /*#__PURE__*/function (_MapView) {
           }
           cameraOpts.destination = Cesium/* Cartesian3.fromDegrees */.b91.fromDegrees(options.options.location.longitude, options.options.location.latitude, options.options.location.altitude);
         }
-        if (options.options.orientation && options.options.orientation.heading && options.options.orientation.pitch) {
+        if (options.options.orientation && options.options.orientation.heading) {
           if (!cameraOpts) {
             cameraOpts = {};
           }
@@ -14072,6 +14072,7 @@ var CesiumView = /*#__PURE__*/function (_MapView) {
             pitch: Cesium/* Math.toRadians */.ZX$.toRadians(options.options.orientation.pitch),
             roll: 0.0
           };
+          console.log(cameraOpts.orientation);
         }
       }
       if (cameraOpts) {
@@ -41578,4 +41579,4 @@ __webpack_require__(64765);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app-legacy.577cfdde.js.map
+//# sourceMappingURL=app-legacy.5184c7b5.js.map
