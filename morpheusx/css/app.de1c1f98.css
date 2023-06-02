@@ -1007,16 +1007,16 @@ to {
 }
 
 
-.info-icon[data-v-c97d1772] {
+.info-icon[data-v-1575129f] {
   margin-right: 10px;
   cursor: pointer;
   z-index: 999999999999;
 }
-.slider[data-v-c97d1772] {
+.slider[data-v-1575129f] {
   padding-top: 5px;
   overflow: hidden;
 }
-.icon-anchor[data-v-c97d1772], .label-anchor[data-v-c97d1772] {
+.icon-anchor[data-v-1575129f], .label-anchor[data-v-1575129f] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
